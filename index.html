@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="assect/images/download.png">
+	<title>HTML Block and inline elements</title>
+	<style>
+		footer{
+			padding: 30px;
+		}
+		td{
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+
+		.cercle{
+			width: 150px;
+			height: 150px;
+			border-radius: 75px;
+			background-color: red;
+			
+		}
+		tr:nth-child(even) {
+  background-color: #dddddd;}
+
+  th{
+	  padding: 20px;
+	  background-color: rgb(19, 16, 15);
+	  color: white;
+	  font-size: 30px;
+  }
+	body, form{
+		background-color: teal;
+	}
+	.h{
+		text-align: center;
+		color: white;
+	}
+	header{
+		padding: 30px;
+		background-color: blue;
+		color: white;
+		
+	}
+	</style>
+</head>
+
+<body>
+	<h1 class="h">HTML Block elements</h1>
+	
+	
+	<Table border="1px" cellspacing="0" cellpading="10px" width="100%" >
+		
+		<tr>
+			<th>Sr</th>
+			<th>Tag Name</th>
+			<th>Destenation</th>
+			<th>Example</th>
+		</tr>
+
+		<tr>
+			<td>10</td>
+			<td>header</td>
+			<td>Header tag  use page tpp</td>
+			<td><header> Header tag example</header></td>
+		</tr>
+
+		<tr>
+			<td>01</td>
+			<td>h1</td>
+			<td>heading tag</td>
+			<td><h1>This is heading tag</h1></td>
+		</tr>
+
+		
+		<tr>
+			<td>02</td>
+			<td>p</td>
+			<td>Pragrape</td>
+			<td><p>My name is Shahanur Rahaman.</p></h1></td>
+		</tr>
+
+		
+		<tr>
+			<td>03</td>
+			<td>div</td>
+			<td>divition</td>
+			<td> <div class="cercle"></div></td>
+		</tr>
+
+		<tr>
+			<td>04</td>
+			<td>address</td>
+			<td>address</td>
+			<td><address>
+				Written by <a href="https://www.facebook.com/groups/fullstackwebdevelopmentonline15/">SS</a>.<br>
+				Visit us at:<br>
+				Example.com<br>
+				Box 564, Disneyland<br>
+				Bonani
+				</address></td>
+		</tr>
+
+		<tr>
+			<td>05</td>
+			<td>article</td>
+			<td>article</td>
+			<td><article>
+				<h1>Shahanur</h1>
+				<p>My Name is Shahanur</p>
+			  </article></td>
+		</tr>
+
+		<tr>
+			<td>06</td>
+			<td>aside</td>
+			<td>aside</td>
+			<td><p>My family and I visited The Epcot center this summer.</p>
+
+				<aside>
+				  <h4>Epcot Center</h4>
+				  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+				</aside></td>
+		</tr>
+
+		<tr>
+			<td>07</td>
+			<td>dl</td>
+			<td>dl</td>
+			<td><dl>
+				<dt>Coffee</dt>
+				<dd>Black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>White cold drink</dd>
+			  </dl></td>
+		</tr>
+
+		
+
+		<tr>
+			<td>09</td>
+			<td>form</td>
+			<td>form</td>
+			<td><form action="" method="" style="background-color: rgb(236, 223, 223); margin: 100px;">
+				<fieldset>
+				  <legend>HTML Form</legend>
+				  <label for="firstname">First Name:</label>
+				  <input type="text" name="firstname" id="firstname" required>
+				  <br><br>
+				  <label for="lastname">Last Name:</label>
+				  <input type="text"name="lastname" id="lastname" required>
+				  <br><br>
+				  <label for="email">email
+			  
+				  </label>
+				  <input type="email" name="email" id="email">
+				  <br><br>
+				  <label for="password">Password:</label>
+				  <input type="password" name="password" id="password">
+				  <br><br>
+				  <label for="url">URL:</label>
+				  <input type="url" name="url" id="url" >
+				  <br><br>
+				  <label for="tel">Tel:</label>
+				  <input type="tel" name="tel" id="tel">
+				  <br><br>
+				  <label for="">Gender:</label>
+				  <input type="radio" name="gender" value="">Male
+				  <input type="radio" name="gender" value="">Femail
+				  <input type="radio" name="gender" value="">Other
+				  <br><br>
+				  <label for="">I have</label>
+				  <input type="checkbox" name="" value="laptop">Laptop
+				  <input type="checkbox" value="dextop">Dextop
+				  <input type="checkbox" value="mobile">Mobile
+				  <br><br>
+				  <label for="">Add mob no:</label>
+				  <input type="number" min="1" max="10">
+				  <br><br>
+				  <label for="">DOB:</label>
+				  <input type="date">
+				  <br><br>
+				  <label for="">Input file</label>
+				  <input type="file">
+			  
+				  <br><br>
+			  
+				  <input type="submit">
+				</fieldset>
+			  </form></td>
+		</tr>
+
+	
+
+		<tr>
+			<td>11</td>
+			<td>hr</td>
+			<td>horigental line</td>
+			<td><p>bangladesh is our mother land.I lone my country</p><hr></td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>video</td>
+			<td>video</td>
+			<td><video src=""></video></td>
+		</tr>
+
+		<tr>
+			<td>08</td>
+			<td>footer</td>
+			<td>footer</td>
+			<td><footer>footer tag page under</footer></td>
+		</tr>
+
+
+
+
+</html>
